@@ -1,0 +1,26 @@
+/* Reset */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins";
+    text-decoration: none;
+    scroll-behavior: smooth;
+}
+
+/* Variables */
+:root{
+    --bg-color: #080808;
+    --second-bg-color: #101010;
+    --text-color: white;
+    --main-color: #ea580c;
+
+}
+
+/* General Style */
+
+html{
+    font-size: 60%;
+    overflow-x: hidden;
+}
+
