@@ -78,6 +78,9 @@ span{
   border-bottom: 3px solid var(--main-color) ;
 }
 
+.x{
+    display: none;
+}
 .gradient-btn{
    font-size: 1.8rem; 
    padding: 1rem 2rem;
@@ -369,14 +372,20 @@ section{
     .navbar{
         position: absolute;
         top: 100%;
-        right: 0;
+        right: -50%;
         width: 50%;
         padding: 1rem 3rem;
         background: rgba(0,0,0,0.8);
         border-bottom-left-radius: 2rem;
         border-left: 2px solid var(--main-color);
         border-bottom: 2px solid var(--main-color);
-        display: none;
+        transition: all;
+        transition-duration: .5s;
+    }
+    
+    .x{
+        display: flex;
+        color: var(--main-color);
     }
     .navbar a{
         display: block;

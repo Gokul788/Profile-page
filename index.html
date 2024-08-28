@@ -13,20 +13,25 @@
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
     />
+    <!--Link js-->
+    <script src="function.js" defer></script>
   </head>
   <body>
     <!--Navbar-->
     <header class="header">
       <a href="#" class="logo"> Profile <span>Page</span> </a>
 
-      <i class="bx bx-menu" id="menu-bar"></i>
-
+      <i class="bx bx-menu" id="menu-bar" onclick="sidebar()"></i>
+     
       <nav class="navbar">
         <a href="#home">Home</a>
         <a href="#about">about</a>
         <a href="">Services</a>
         <a href="#projects">Projects</a>
         <a href="#contact">Contact</a>
+        <div class="x" onclick="Cancel()">
+          <p>X</p>
+        </div>
       </nav>
 
       <button class="gradient-btn">Contact Me</button>
