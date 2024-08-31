@@ -409,6 +409,7 @@ section{
     .home-content{
         align-items: center;
         text-align: center;
+        margin-top: 10rem;
     }
     .home-img img{
         width: 56vw;
